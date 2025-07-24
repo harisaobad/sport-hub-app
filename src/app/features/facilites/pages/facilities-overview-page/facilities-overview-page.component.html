@@ -1,0 +1,17 @@
+<app-facilities-filter-form (filter)="handleFilterChange($event)" />
+<div class="grid grid-cols-4 gap-4 mx-auto">
+	@if (loading$ | async) {
+		<p class="text-center">Loading...</p>
+	} @else {
+		@for (facility of facilities; track facility.id) {
+			<app-facility-card [facility]="facility" />
+		}
+		@if (hasError) {
+			<p class="text-center">Desila se greska</p>
+		} @else {
+			@if (facilities?.length == 0) {
+				<p class="text-center">Nema podataka</p>
+			}
+		}
+	}
+</div>

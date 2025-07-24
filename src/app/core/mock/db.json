@@ -1,3 +1,28 @@
 {
-	"facilities": []
+	"facilities": [
+		{
+			"id": "1",
+			"name": "Arena",
+			"imageUrl": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"city": "Mostar"
+		},
+		{
+			"id": "2",
+			"name": "Fit4life",
+			"imageUrl": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"city": "Mostar"
+		},
+		{
+			"id": "3",
+			"name": "Star Fitness",
+			"imageUrl": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"city": "Sarajevo"
+		},
+		{
+			"id": "4",
+			"name": "Bodyline",
+			"imageUrl": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"city": "Sarajevo"
+		}
+	]
 }
